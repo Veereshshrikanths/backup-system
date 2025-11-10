@@ -56,7 +56,8 @@ if [ "$CHECKSUM_TYPE" == "sha256" ]; then
 else
     md5sum "$BACKUP_PATH" > "$CHECKSUM_FILE"
 fi
-echo "[SUCCESS] Checksum saved to: $CHECKSUM_FILE"
+echo "[SUCCESS] Checksum s
+aved to: $CHECKSUM_FILE"
 
 # === Verify Checksum ===
 echo "[INFO] Verifying checksum..."
