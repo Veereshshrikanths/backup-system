@@ -2,12 +2,19 @@
 
 
 * Create compressed `.tar.gz` backups of any folder
+
 * Automatically skip unwanted folders like `.git`, `node_modules`, `.cache`, etc.
+
 * Generate checksum files to verify backup integrity
+
 * Automatically delete old backups based on a daily, weekly, and monthly retention policy
+
 * Prevent multiple script executions at the same time
+
 * Provide detailed logging of everything the script does
+
 * Test the system without making changes using `--dry-run` mode
+
 * Restore backups and list existing backups
 
 ### Why is it useful?
@@ -271,3 +278,5 @@ This script provides a reliable, automated, and safe backup system using only Ba
  - Logging and test modes
 
 It is suitable for personal systems, servers, student projects, and small business setups.
+
+
